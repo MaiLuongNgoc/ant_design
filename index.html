@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ant Design</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body id="body">
+        <div class="advance-search" id="advance-search">
+            <div oclick="hideAdvanceSearch()"></div>
+            <div>
+                <i class;="fa fa-search" aria-hidden="true"></i>
+                <input placeholder="Keyword" />
+            </div>
+        </div>
+        <div
+            class="pack1"
+            style="
+                background-image: url(https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*kJM2Q6uPXCAAAAAAAAAAAABkARQnAQ);
+            "
+        >
+            <div class="park1-navbar">
+                <span class="nav-left">
+                    <img src="assets/images/logoantdesign.svg" />
+                    <div><b>Ant Design</b></div>
+                    <div
+                        class="nav-left-search"
+                        style="color: rgb(214, 214, 214)"
+                    >
+                        |
+
+                        <img src="assets/images/search.svg" />
+                    </div>
+                    <input type="text" placeholder="Search in ant.design" />
+                </span>
+                <span class="nav-center">
+                    <span onclick="goToElement('recommended')">Recommended</span>
+                    <span onclick="goToElement('design')">Design</span>
+                    <span onclick="goToElement('guildlines')">Guildlines</span>
+                    <span onclick="goToElement('doc')">Docs</span>
+                </span>
+                <span class="nav-right">
+                    <span class="nav-right-form1">
+                        <select
+                            id="size"
+                            name="size"
+                            style="
+                                width: 65px;
+                                height: 27px;
+                                border: solid 1px rgb(212, 212, 212);
+                            "
+                        >
+                            <option value="4.16.0">4.16.0</option>
+                            <option value="3x">3x</option>
+                            <option value="2x">2x</option>
+                            <option value="1x">1x</option>
+                        </select>
+                    </span>
+                    <span
+                        style="
+                            border: solid 1px rgb(212, 212, 212);
+                            padding: 2px 4px;
+                            margin-left: 10px;
+                        "
+                        >Chinese</span
+                    >
+                    <span
+                        style="
+                            border: solid 1px rgb(212, 212, 212);
+                            padding: 2px 4px;
+                            margin-left: 10px;
+                        "
+                        >RTL</span
+                    >
+                    <span class="nav-right-form2">
+                        <select
+                            id="option"
+                            name="option"
+                            style="
+                                width: 60px;
+                                height: 27px;
+                                border: solid 1px rgb(212, 212, 212);
+                                margin-left: 6px;
+                            "
+                        >
+                            <option value="more">More</option>
+                            <option value="ant design charts">
+                                Ant Design Chart
+                            </option>
+                            <option value="ant design pro">
+                                Ant Design Pro
+                            </option>
+                            <option value="ant design plus">
+                                Ant Design Plus
+                            </option>
+                        </select>
+                    </span>
+                    <img
+                        style="margin-left: 10px; width: 17px; height: 17px"
+                        src="assets/images/github.png"
+                    />
+                    <span>7189</span>
+                </span>
+            </div>
+            <div class="pack1-center">
+                <div class="pack1-name"><b>Ant Design</b></div>
+                <div class="pack1-intro">
+                    A design system for enterprise-level products. Create an
+                    efficient and enjoyable work experience
+                </div>
+                <div class="pack1-button">
+                    <span class="pack1-button1">Getting Started</span>
+                    <span class="pack1-button2">Design Language</span>
+                </div>
+            </div>
+        </div>
+        <div class="recommended" id="recommended">
+            <div>Recommended</div>
+            <div class="recommended-img">
+                <div class="img1">
+                    <img src="assets/images/background2.png" />
+                    
+                </div>
+                <div class="img1-1">
+                    <div class="img1-topleft">Popular</div>
+                    <div class="img1-bottom">
+                        <div class="img1-bottom1">
+                            Weekly View of AntD Design Mode · Publishing Words
+                        </div>
+                        <div class="img1-bottom2">
+                            Every week, Ant Design tells you what design
+                            patterns are
+                        </div>
+                    </div>
+                </div>
+                <div class="img2">
+                    <img src="assets/images/background3.png" />
+                    <div class="img2-bottom">
+                        <div class="img2-bottom1">
+                            Some chores of Ant Design 4.0 - menu
+                        </div>
+                        <div class="img2-bottom2">
+                            Recently, the bottom layer of menu component is
+                            being refactored
+                        </div>
+                    </div>
+                </div>
+                <div class="img3">
+                    <img src="assets/images/background4.png" />
+                    <div class="img3-bottom">
+                        <div class="img3-bottom1">
+                            From 0 to 1, build a complete set of design language
+                        </div>
+                        <div class="img3-bottom2">
+                            Design language takes design as a way of
+                            communication
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div clas="pack2" id="design">
+            <div class="pack2-content">Design language and framework</div>
+            <div class="pack2-grid">
+                <div
+                    class="pack2-grid-ittem1"
+                    style="
+                        background: url(https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*i1EySrFVZvAAAAAAAAAAAABkARQnAQ);
+                    "
+                >
+                    <div class="ittem1-content">
+                        <div class="ittem1-content-title">
+                            <b>Design values</b>
+                        </div>
+                        <div class="ittem1-content-body">
+                            This is Ant Design's internal standard for
+                            evaluating design quality. Based on the assumption
+                            that "everyone is pursuing happiness at work", we
+                            have added the two values of "Meaningfulness" and
+                            "Growth" on the basis of "Certainty" and
+                            "Naturalness" to guide each designer towards better
+                            judgment and decision-making.
+                        </div>
+                        <div class="ittem1-content-bottom">
+                            <span>More details</span>
+                            <img src="assets/images/expand-button.png" />
+                        </div>
+                    </div>
+                    <div class="pack2-grid-ittem1">
+                        <div class="pack2-grid-ittem1-img1">
+                            <img src="assets/images/more.png" />
+                            <div>Certainty</div>
+                        </div>
+                        <div class="pack2-grid-ittem1-img1">
+                            <img src="assets/images/mindfulness.png" />
+                            <div>Meaningfulness</div>
+                        </div>
+                        <div class="pack2-grid-ittem1-img1">
+                            <img src="assets/images/trend.png" />
+                            <div>Growth</div>
+                        </div>
+                        <div class="pack2-grid-ittem1-img1">
+                            <img src="assets/images/planet-earth.png" />
+                            <div>Naturalness</div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="pack2-grid-ittem2"
+                    style="background-color: #e6f1ff"
+                >
+                    <span class="pack2-grid-ittem2-a">
+                        <div class="pack2-grid-ittem2-title">Guidelines</div>
+                        <div class="pack2-grid-ittem2-title-body">
+                            <span style="color: blue">Global style</span>
+                            <img src="assets/images/expand-button.png" />
+                            <br />
+                            <span style="color: blue">Design patterns</span>
+                            <img src="assets/images/expand-button.png" />
+                        </div>
+                    </span>
+                    <span class="pack2-grid-ittem2-b">
+                        <img src="assets/images/background6.png" />
+                    </span>
+                </div>
+
+                <div
+                    class="pack2-grid-ittem3"
+                    style="background-color: #e6f1ff"
+                >
+                    <span class="pack2-grid-ittem3-a">
+                        <div class="pack2-grid-ittem2-title">Components</div>
+                        <div class="pack2-grid-ittem2-title-body">
+                            <span style="color: blue">Ant Design of React</span>
+                            <span style="color: rgb(112, 111, 111)"
+                                >(official)</span
+                            >
+                            <br />
+                            <span style="color: blue"
+                                >Ant Design of Angular</span
+                            >
+                            <span style="color: rgb(112, 111, 111)"
+                                >(community)</span
+                            >
+                            <br />
+                            <span style="color: blue">Ant Design of Vue</span>
+                            <span style="color: rgb(112, 111, 111)"
+                                >(community)</span
+                            >
+                        </div>
+                    </span>
+                    <span class="pack2-grid-ittem3-b">
+                        <img src="assets/images/background7.png" />
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="pack3" id="guildlines">
+            <div class="pack3-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*ZhzDQLMyYlYAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack3-ittem-title">AnTV</div>
+                <div class="pack3-ittem-body">
+                    A new way to do data visualization
+                </div>
+            </div>
+
+            <div class="pack3-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/zos/antfincdn/888xda6kBc/Ant%252520Design%252520shouyepeitu.svg"
+                />
+                <div class="pack3-ittem-title">Ant Design Pro</div>
+                <div class="pack3-ittem-body">
+                    A new way to do data visualization
+                </div>
+            </div>
+
+            <div class="pack3-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*mb-WQILTlSEAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack3-ittem-title">Ant Design Mobile</div>
+                <div class="pack3-ittem-body">
+                    A new way to do data visualization
+                </div>
+            </div>
+
+            <div class="pack3-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*PrLWSpmWZmIAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack3-ittem-title">HiTu</div>
+                <div class="pack3-ittem-body">
+                    A new way to do data visualization
+                </div>
+            </div>
+
+            <div class="pack3-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*MaL2SYtHPuMAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack3-ittem-title">Kitchen</div>
+                <div class="pack3-ittem-body">
+                    A new way to do data visualization
+                </div>
+            </div>
+
+            <div class="pack3-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*T_HeSIJ30IIAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack3-ittem-title">Icons</div>
+                <div class="pack3-ittem-body">
+                    A new way to do data visualization
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <span class="learn">Learn More</span>
+            <span class="learn-more" style="color: blue">More</span>
+        </div>
+
+        <div class="pack4">
+            <div class="pack4-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*J1SBR47PngwAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack4-ittem-title">
+                    The variation of forms: Modularized forms in Ant Design
+                </div>
+                <div class="pack4-ittem-content">
+                    Let's take a closer look at the list, and how we should
+                    improve its versatility and coverage.
+                </div>
+                <div class="pack4-ittem-date">2020-09-04</div>
+            </div>
+
+            <div class="pack4-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*cJdyS4KVDlgAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack4-ittem-title">
+                    Everyone can be an Illustrator: Modularizing Illustration
+                    with Ant Design HiTu
+                </div>
+                <div class="pack4-ittem-content">
+                    Ant Design HiTu aims to modularize layout, color, shapes,
+                    and a series of design guidelines.
+                </div>
+                <div class="pack4-ittem-date">2020-08-27</div>
+            </div>
+
+            <div class="pack4-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*NjL9T4cryc0AAAAAAAAAAAAAARQnAQ"
+                />
+                <div class="pack4-ittem-title">
+                    A Peek into Ant Design 4.0：Going Dark
+                </div>
+                <div class="pack4-ittem-content">
+                    The dark mode is becoming one of the most requested
+                    features. Ant Design began exploring the dark mode in our
+                    4.0 upgrade.
+                </div>
+                <div class="pack4-ittem-date">2020-08-20</div>
+            </div>
+
+            <div class="pack4-ittem">
+                <img
+                    src="https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*eHjqRLpxlcsAAAAAAAAAAABkARQnAQ"
+                />
+                <div class="pack4-ittem-title">
+                    A Peek into Ant Design 4.0：Flow of Information
+                </div>
+                <div class="pack4-ittem-content">
+                    A typical user interface design process involves a large
+                    amount of information organization and orchestration.
+                </div>
+                <div class="pack4-ittem-date">2020-08-14</div>
+            </div>
+        </div>
+
+        <div class="pack5">
+            <div class="pack5-a">
+                <div class="pack5-a-title"><b>Resources</b></div>
+                <div class="pack5-a-ittem">Ant Design Charts</div>
+                <div class="pack5-a-ittem">Ant Design Pro</div>
+                <div class="pack5-a-ittem">Ant Design Pro Components</div>
+                <div class="pack5-a-ittem">Ant Design Mobile</div>
+
+                <span class="pack5-a-ittem2">Ant Design Landing</span>
+                <span style="color: rgb(112, 111, 111)"
+                    >- Landing Templates</span
+                >
+
+                <br />
+                <span class="pack5-a-ittem2">Scaffolds</span>
+                <span style="color: rgb(112, 111, 111)">- Scaffold Market</span>
+                <br />
+
+                <span class="pack5-a-ittem2">Umi</span>
+                <span style="color: rgb(112, 111, 111)"
+                    >- React Application Framework</span
+                >
+                <br />
+
+                <span class="pack5-a-ittem2">Dumi</span>
+                <span style="color: rgb(112, 111, 111)"
+                    >- Component doc generator</span
+                >
+                <br />
+
+                <span class="pack5-a-ittem2">qiankun</span>
+                <span style="color: rgb(112, 111, 111)"
+                    >- Micro - Frontends Framework</span
+                >
+                <br />
+
+                <span class="pack5-a-ittem2">ahooks</span>
+                <span style="color: rgb(112, 111, 111)"
+                    >- React Hooks Library</span
+                >
+                <br />
+
+                <span class="pack5-a-ittem2">Ant Motion</span>
+                <span style="color: rgb(112, 111, 111)">- Motion Solution</span>
+
+                <div class="pack5-a-ittem">China Mirror 🇨🇳</div>
+            </div>
+
+            <div class="pack5-b">
+                <div class="pack5-b-title"><b>Community</b></div>
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/code.png" />
+                    <span>Awesome Ant Design</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/medium.png" />
+                    <span>Medium</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/twitter.png" />
+                    <span>Twitter</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/china.png" />
+                    <span>Ant Design Blog</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/china.png" />
+                    <span>Experience Cloud Blog</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/s.png" />
+                    <span>SEE Conf</span>
+                    <span style="color: rgb(112, 111, 111)"
+                        >- Experience Tech Conference</span
+                    >
+                </div>
+            </div>
+
+            <div class="pack5-b">
+                <div class="pack5-b-title"><b>Help</b></div>
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/github (2).png" />
+                    <span>Github</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/time.png" />
+                    <span>Change Log</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/check.png" />
+                    <span>FAQ</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/bug.png" />
+                    <span>Bug Report</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/issue.png" />
+                    <span>Issues</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/table.png" />
+                    <span>Ant Design Practical Tutorial</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/question.png" />
+                    <span>Discussions</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/question.png" />
+                    <span>StackOverflow</span>
+                </div>
+
+                <div class="pack5-b-ittem">
+                    <img src="assets/images/question.png" />
+                    <span>SegmentFault</span>
+                </div>
+            </div>
+
+            <div class="pack5-c">
+                <div class="pack5-c-title">
+                    <img
+                        src="https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg"
+                    />
+                    <span><b>More Products</b></span>
+                </div>
+
+                <div class="pack5-c-ittem">
+                    <img
+                        src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg"
+                    />
+                    <span>YuQue</span>
+                    <span style="color: rgb(112, 111, 111)"
+                        >- Write your document as a team</span
+                    >
+                </div>
+
+                <div class="pack5-c-ittem">
+                    <img
+                        src="https://gw.alipayobjects.com/zos/antfincdn/nc7Fc0XBg5/8a6844f5-a6ed-4630-9177-4fa5d0b7dd47.png"
+                    />
+                    <span>AntV</span>
+                    <span style="color: rgb(112, 111, 111)"
+                        >- Data Visualization</span
+                    >
+                </div>
+
+                <div class="pack5-c-ittem">
+                    <img
+                        src="https://gw.alipayobjects.com/zos/antfincdn/v2%24rh7lqpu/82f338dd-b0a6-41bc-9a86-58aaa9df217b.png"
+                    />
+                    <span>Egg</span>
+                    <span style="color: rgb(112, 111, 111)"
+                        >- Enterprise Node.js Framework</span
+                    >
+                </div>
+
+                <div class="pack5-c-ittem">
+                    <img
+                        src="https://gw.alipayobjects.com/zos/rmsportal/DMDOlAUhmktLyEODCMBR.ico"
+                    />
+                    <span>Kitchen</span>
+                    <span style="color: rgb(112, 111, 111)"
+                        >- Sketch Toolkit</span
+                    >
+                </div>
+
+                <div class="pack5-c-ittem">
+                    <img
+                        src="https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg"
+                    />
+                    <span>Ant Financial Experience Tech</span>
+                </div>
+
+                <div class="pack5-c-bottom"></div>
+            </div>
+        </div>
+        <div class="pack5-quote">
+            <div class="pack5-quote-ittem">
+                <span style="color: rgb(112, 111, 111)">Made with</span>
+                <img src="assets/images/heart.png" />
+                <span style="color: rgb(112, 111, 111)">by </span>
+                <span style="color: white">XTech</span>
+            </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</html>
